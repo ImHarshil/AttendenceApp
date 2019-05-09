@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/rollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#464444"
+
+        android:text="rollno"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/vsname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.55"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:text="sname" />
+
+    <TextView
+        android:id="@+id/vfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.34"
+        android:textColor="#4e4c4c"
+        android:text="fname" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:text="s"
+        android:textColor="#000000"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
